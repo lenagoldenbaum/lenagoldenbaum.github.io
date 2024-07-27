@@ -1,0 +1,41 @@
+[[entries]]
+title = "info"
+
+  [[entries.entries]]
+  title = "about"
+  url = "posts/about"
+
+[[entries]]
+title = "posts"
+url = "posts"
+
+  [entries.post_list]
+  section = "posts"
+  limit = 10
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "pages"
+url = "pages"
+
+  [entries.post_list]
+  section = "pages"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "posts"
+
+
+[[entries]]
+title = "notes"
+
+  [entries.post_list]
+  section = "notes"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "posts"
+[[entries]]
+title = "rss"
+url = "index.xml"
+
